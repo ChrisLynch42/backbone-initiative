@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Initiative - Backbone.js</title>
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/underscore.js"></script>
+    <script src="js/lib/backbone.js"></script>
+    <script src="js/lib/backbone.localStorage.js"></script>
+    <script data-main="./main" src="js/lib/require.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+  </head>
+  <body>
+    <div id="content">
+      <section id="initiativeApplication">
+      <div id="header">
+        <h1>Initiative</h1>
+      </div>
+      <div class="buttonRow center">
+        <input type="image" id="startSession" class="buttonWidth" src="images/Start.svg"/>
+        <input type="image" id="resetSession" class="buttonWidth" src="images/Caution.svg"/>
+        <input type="image" id="prevInitiative" class="buttonWidth" src="images/Previous.svg"/>
+        <input type="image" id="endSession" class="buttonWidth" src="images/End.svg"/>
+        <input type="image" id="nextInitiative" class="buttonWidth" src="images/Next.svg"/>
+      </div>
+      <div id="newSection">
+        <div class="itemRow">
+          <h3>Add New</h3>
+        </div>
+        <div id="newInitiative" class="itemRow editing">
+        </div>
+      </div>
+      <div id="characterList"></div>
+      <div id="footer itemRow"></div>
+      </section>
+    </div>
+  </body>
+</html>

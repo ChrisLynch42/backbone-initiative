@@ -1,0 +1,21 @@
+      <div class="view">
+        <div class="viewRow">
+          <div class="column orderColumn">
+            <div class="columnLabel">Order</div>
+            <div class="viewDisplay"><span ><%- currentOrder %></span></div>
+          </div>
+          <div class="column initiativeColumn">
+            <div class="columnLabel">Initiative</div>
+            <div class="viewDisplay"><span ><%- initiative %></span></div>
+            <div class="dataDisplay"><input class="edit" id="initiative" type="number" min="1" max="40" value="<%- initiative %>"></div>
+          </div>
+          <div class="column nameColumn">
+            <div class="columnLabel">Name</div>
+            <div class="viewDisplay"><span><%- title %></span></div>
+            <div class="dataDisplay"><input class="edit" id="name" value="<%- title %>" placeholder="Character name."></div>
+          </div>
+          <div class="column commandColumn">
+          </div>
+        </div>
+
+      </div>

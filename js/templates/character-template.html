@@ -1,0 +1,31 @@
+      <div class="view">
+        <div class="viewRow character">
+          <div class="column initiativeColumn">
+            <div class="columnLabel viewClick">Initiative</div>
+            <div class="viewDisplay viewClick"><span ><%- initiative %></span></div>
+            <div class="dataDisplay"><input class="edit initiative" type="number" min="1" max="40" maxlength="2" value="<%- initiative %>"></div>
+          </div>
+          <div class="column nameColumn">
+            <div class="columnLabel viewClick">Name</div>
+            <div class="viewDisplay viewClick"><span><%- name %></span></div>
+            <div class="dataDisplay"><input class="edit name" value="<%- name %>" placeholder="Character name."></div>
+          </div>
+          <div class="column hitPointsColumn">
+            <div class="columnLabel viewClick">HP</div>
+            <div class="viewDisplay viewClick"><span ><%- hitPoints %></span></div>
+            <div class="dataDisplay"><input class="edit hitPoints" type="number" min="1" max="500" maxlength="3" value="<%- hitPoints %>"></div>
+          </div>
+          <div class="column commandColumn">
+            <div class="columnLabel"><span>&nbsp;</span></div>
+          </div>
+        </div>
+
+        <div class="viewRow conditions">
+          <div id="conditionLabel" class="viewClick">Conditions</div> 
+          <input type="image" id="addCondition" class="conditionButtonWidth" src="images/Add.svg"></input>
+          
+          <div class="viewRow conditionList">
+          </div>
+        </div>
+
+      </div>

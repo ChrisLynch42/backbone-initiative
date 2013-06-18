@@ -1,0 +1,25 @@
+
+1)  User should be able to add a character
+2)  Application should place new character in a list.
+3)  Characters in a list should placed in order of initiative
+4)  A button called "Next" should end one characters turn and move to 
+    the next character.
+5)  A button call "Prev" should move the character whose turn just ended back
+    to the top of the list.
+6)  The character at the top of the list is the character who is currently active.
+7)  A round is a segment of time where each character gets to act.
+8)  The order in which the characters get to act is determined by initiative.  The higher
+    number going first.
+9)  Initiative is a number.
+10) A session is where a group of characters interact.
+11) Sessions are broken up into time segments known as rounds.
+12) Once a session is started and a new character needs to be added
+    the new character should roll initiative
+14) Character list order should be all characters ordered by initiative
+    who have not acted this round.  Followd by characters who have acted
+    this round.
+15) There should be a method to remove a character from the list.
+16) There should be a method to remove all characters from the list.
+17) There should be a method to restart the session.
+18) The application should track the number of rounds.
+19) The Game Master should be able to hide a monsters hitpoints.
